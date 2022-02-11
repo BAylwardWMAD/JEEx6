@@ -1,7 +1,7 @@
 package edu.nbcc.student;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.Vector;
 import java.util.stream.Collectors;
 
 public class Student {
@@ -60,8 +60,8 @@ public class Student {
 	 * 
 	 * @return
 	 */
-	public static List<Student> getStudents() {
-		List<Student> students = new ArrayList<Student>();
+	public static Vector<Student> getStudents() {
+		Vector<Student> students = new Vector<Student>();
 		students.add(new Student(1, "Student 1", "Student 1"));
 		students.add(new Student(2, "Student 2", "Student 2"));
 		students.add(new Student(3, "Student 3", "Student 3"));
